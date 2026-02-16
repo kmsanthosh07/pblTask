@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+    <!-- sidebar -->
+    <div id="navbar">
+        <button id="menuBtn">☰</button>
+        <button id="themeToggle">🌙</button>
+    </div>
+
+   <aside id="sidebar" class="sidebar">
+        <ul class="sidebar-container">
+           <a href="./dashboard.html"> <li class="sidebar-item">Dashboard</li></a>
+           <a href="./courses.html"> <li class="sidebar-item">Courses</li></a>
+           <a href="./assignments.html"><li class="sidebar-item">Assignments</li></a>
+           <a href="./profile.html"><li class="sidebar-item">Profile</li></a>
+        </ul>
+    </aside>
+    <!-- main content -->
+    <div id="assignmentList" class="assignment-container"></div>
+    <script src="js/assignments.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+</html>

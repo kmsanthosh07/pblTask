@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+    <!-- sidebar  -->
+    <div id="navbar">
+        <button id="menuBtn">☰</button>
+        <button id="themeToggle">🌙</button>
+    </div>
+
+    <aside id="sidebar" class="sidebar">
+        <ul class="sidebar-container">
+           <a href="./dashboard.html"> <li class="sidebar-item">Dashboard</li></a>
+           <a href="./courses.html"> <li class="sidebar-item">Courses</li></a>
+           <a href="./assignments.html"><li class="sidebar-item">Assignments</li></a>
+           <a href="./profile.html"><li class="sidebar-item">Profile</li></a>
+        </ul>
+    </aside>
+
+    <!-- main content -->
+    <h2>My Profile</h2>
+    <div id="profile">
+
+        <div class="profile-card">
+            <input type="text" id="name" value="Santhosh" disabled />
+            <input type="email" id="email" value="santhosh@email.com" disabled />
+            <button id="editBtn">Edit Profile</button>
+        </div>
+    </div>
+        
+
+    <script src="js/dashboard.js"></script>
+    <script src="js/profile.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+</html>
+

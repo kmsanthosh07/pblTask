@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS - Platform</title>
+    <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+    <!-- sidebar -->
+    <div id="navbar">
+        <button id="menuBtn">☰</button>
+        <button id="themeToggle">🌙</button>
+    </div>
+
+    <aside id="sidebar" class="sidebar">
+        <ul class="sidebar-container">
+           <li  data-page="dashboard.html" class="sidebar-item">Dashboard</li>
+            <li data-page="courses.html" class="sidebar-item">Courses</li>
+           <li data-page="assignments.html" class="sidebar-item">Assignments</li>
+           <li data-page="profile.html" class="sidebar-item">Profile</li>
+        </ul>
+    </aside>
+    <!-- main content -->
+        <div id="dashboardCards" class="cards-container"></div>
+     <script src="js/dashboard.js"></script>
+     <script src="js/theme.js"></script>
+</body>
+</html>
